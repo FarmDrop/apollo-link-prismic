@@ -1,6 +1,6 @@
 {
   "name": "@farmdrop/apollo-link-prismic",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Apollo link for Prismic",
   "main": "dist/apollo-link-prismic.min.js",
   "scripts": {
@@ -26,10 +26,10 @@
   "homepage": "https://github.com/prismicio/apollo-link-prismic#readme",
   "dependencies": {
     "@apollo/client": "^3.3.7",
-    "graphql": "^14.5.8",
     "prismic-javascript": "^1.5.0"
   },
   "peerDependencies": {
+    "graphql": "^14.7.0",
     "react": "^16.14.0"
   },
   "devDependencies": {
@@ -41,6 +41,7 @@
     "add": "^2.0.6",
     "babel-preset-minify": "^0.4.3",
     "fetch-mock": "^8.0.0",
+    "graphql": "^14.7.0",
     "jest": "^26.4.1",
     "react": "^16.14.0",
     "rollup": "^1.27.5",
