@@ -1,5 +1,5 @@
 {
-  "name": "apollo-link-prismic",
+  "name": "@farmdrop/apollo-link-prismic",
   "version": "1.1.0",
   "description": "Apollo link for Prismic",
   "main": "dist/apollo-link-prismic.min.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/prismicio/apollo-link-prismic.git"
+    "url": "git+https://github.com/prismicio/apollo-link-prismic.git"
   },
   "keywords": [
     "graphql",
@@ -45,5 +45,8 @@
     "react": "^16.14.0",
     "rollup": "^1.27.5",
     "rollup-plugin-terser": "^7.0.0"
+  },
+  "directories": {
+    "test": "tests"
   }
 }
