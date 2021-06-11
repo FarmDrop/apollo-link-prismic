@@ -1,6 +1,6 @@
 import { HttpLink } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
-import Prismic from "prismic-javascript";
+import Prismic from "@prismicio/client";
 import removeWhiteSpace from "./lib/removeWhiteSpace";
 
 const PRISMIC_ENDPOINT_REG = /^https?:\/\/([^.]+)\.(?:cdn\.)?(wroom\.(?:test|io)|prismic\.io)\/graphql\/?/;

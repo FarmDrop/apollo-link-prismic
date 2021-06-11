@@ -1,6 +1,6 @@
 {
   "name": "@farmdrop/apollo-link-prismic",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Apollo link for Prismic",
   "main": "dist/apollo-link-prismic.min.js",
   "scripts": {
@@ -25,14 +25,15 @@
   },
   "homepage": "https://github.com/prismicio/apollo-link-prismic#readme",
   "dependencies": {
-    "@apollo/client": "^3.3.x",
-    "prismic-javascript": "^1.5.0"
+    "@prismicio/client": "^5.0.0"
   },
   "peerDependencies": {
+    "@apollo/client": "^3.3.x",
     "graphql": "^15.x.x",
     "react": "^16.x.x"
   },
   "devDependencies": {
+    "@apollo/client": "^3.3.14",
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.11.0",
@@ -40,6 +41,7 @@
     "@rollup/plugin-babel": "^5.2.0",
     "add": "^2.0.6",
     "babel-preset-minify": "^0.4.3",
+    "cross-fetch": "^2.2.3",
     "fetch-mock": "^8.0.0",
     "graphql": "^15.5.0",
     "jest": "^26.4.1",
