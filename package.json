@@ -1,6 +1,6 @@
 {
   "name": "@farmdrop/apollo-link-prismic",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Apollo link for Prismic",
   "main": "dist/apollo-link-prismic.min.js",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/prismicio/apollo-link-prismic#readme",
   "dependencies": {
-    "@prismicio/client": "^5.0.0"
+    "prismic-javascript": "^2.7.1"
   },
   "peerDependencies": {
     "@apollo/client": "^3.3.x",

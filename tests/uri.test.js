@@ -278,7 +278,7 @@ describe("PrismicLink", () => {
       .get("*", makePromise(gqlData));
   });
 
-  xit("enforces cdn for prismic endpoint", (done) => {
+  it("enforces cdn for prismic endpoint", (done) => {
     const link = PrismicLink({
       uri: "https://test.prismic.io/graphql",
     });
@@ -299,7 +299,7 @@ describe("PrismicLink", () => {
     });
   });
 
-  xit("do not do anything for non prismic endpoint", (done) => {
+  it("do not do anything for non prismic endpoint", (done) => {
     const link = PrismicLink({
       uri: "https://my.website.com/graphql",
       repositoryName: "test",
